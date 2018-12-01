@@ -1,0 +1,68 @@
+main{
+  font-family: helvetica, Verdana;
+  color: #F0544F;
+  padding: 0;
+  margin: 0;
+}
+
+#welcome-section{
+  display: block;
+  height: 100vh;
+  line-height: 100vh;
+  background-color: white;
+  text-align: center;
+  color: #F0544F;
+  font-family: helvetica, Verdana;
+  font-weight: bold;
+  }
+
+#title-text{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 20px;
+}
+
+#navbar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 10vh;
+  width: 100%;
+  background-color: #FDF0D5;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+  overflow: hidden;
+  }
+
+.navbar{
+  text-decoration: none;
+  margin: auto;
+  padding: 10px;
+}
+
+
+img{
+  width: 30vw;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 5px grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img:hover{
+  box-shadow: 1px 1px 5px black;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+#projects{
+  text-align: center;
+
+}
